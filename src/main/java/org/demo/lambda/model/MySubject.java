@@ -1,4 +1,4 @@
-package org.demo.model;
+package org.demo.lambda.model;
 
 import lombok.Data;
 import lombok.ToString;

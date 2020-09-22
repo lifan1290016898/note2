@@ -1,7 +1,7 @@
 package org.demo.lambda;
 
-import org.demo.model.MySubject;
-import org.demo.model.Student;
+import org.demo.lambda.model.MySubject;
+import org.demo.lambda.model.Student;
 
 import java.util.*;
 import java.util.function.*;
