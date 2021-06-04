@@ -5,6 +5,9 @@ import java.util.concurrent.CountDownLatch;
 public class TestCountDownLatch {
 
     public static void main(String[] args) {
+        /**
+         *  使await()了的线程阻塞, countDown()执行完成后再执行await()方法
+         */
         final CountDownLatch countDownLatch = new CountDownLatch(1);
 
         Thread t1 = new Thread(()->{

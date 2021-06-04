@@ -5,6 +5,9 @@ import java.util.concurrent.CyclicBarrier;
 public class TestCyclicBarrier {
 
     public static void main(String[] args) {
+        /**
+         * await()指定次数后一起执行
+         */
         final CyclicBarrier cyclicBarrier = new CyclicBarrier(3);
 
         Thread t1 = new Thread(()->{
